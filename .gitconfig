@@ -1,0 +1,19 @@
+[alias]
+	append = town append
+	hack = town hack
+	kill = town kill
+	new-pull-request = town new-pull-request
+	prepend = town prepend
+	prune-branches = town prune-branches
+	rename-branch = town rename-branch
+	repo = town repo
+	ship = town ship
+	sync = town sync
+[user]
+	name = Hana Harencarova
+	email = 7911294+hharen@users.noreply.github.com
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
