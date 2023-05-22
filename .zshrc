@@ -72,8 +72,8 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git gitfast last-working-dir common-aliases zsh-syntax-highlighting history-substring-search)
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+plugins=(git gitfast last-working-dir common-aliases history-substring-search)
 
 source $ZSH/oh-my-zsh.sh
 
