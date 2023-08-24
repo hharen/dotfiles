@@ -75,8 +75,6 @@ ZSH_THEME="robbyrussell"
 plugins=(git gitfast last-working-dir common-aliases history-substring-search)
 
 source $ZSH/oh-my-zsh.sh
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
-echo "source $PWD/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
 
 # User configuration
 
